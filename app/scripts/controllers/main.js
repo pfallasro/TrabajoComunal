@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name trabajoComunalApp.controller:MainCtrl
+ * @name FCL.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the trabajoComunalApp
+ * Controller of the FCL
  */
-angular.module('trabajoComunalApp')
+angular.module('FCL')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
