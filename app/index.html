@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="trabajoComunalApp">
+  <body ng-app="FCL">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -95,5 +95,17 @@
         <script src="scripts/filters/reverse.js"></script>
         <script src="scripts/routes.js"></script>
         <!-- endbuild -->
+
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB9hsllfRrgcxfaMDR1uinz-N-X1eFF5do",
+        authDomain: "project-3992148008581994246.firebaseapp.com",
+        databaseURL: "https://project-3992148008581994246.firebaseio.com",
+        storageBucket: "project-3992148008581994246.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
 </body>
 </html>

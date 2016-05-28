@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc overview
- * @name trabajoComunalApp
+ * @name Fundacion Ciudadelas de Libertad
  * @description
- * # trabajoComunalApp
+ * # Fundacion Ciudadelas de Libertad
  *
  * Main module of the application.
  */
-angular.module('trabajoComunalApp', [
+angular.module('FCL', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
