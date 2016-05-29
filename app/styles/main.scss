@@ -151,10 +151,21 @@ body {
         a:link {
           background-color: #0e76bd;
           border-top: 1px solid #fff;
+          padding: 10px 0 10px 20px;
+          text-align: left;
         }
         a:link:hover {
           background-color: #0c65a1;
         }
+      }
+      li:before {
+        content: "•";
+        padding-left: 4%;
+        color: #fff;
+        top: 11px;
+        font-size: 25px;
+        position: absolute;
+        display: inherit;
       }
     }
     ul.even-sub-menu {
