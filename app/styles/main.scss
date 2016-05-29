@@ -258,7 +258,9 @@ body {
       font-size: 10px;
       float: left;
       padding: 7px 0;
-      margin-right: 5px;
+      // margin-right: 5px;
+      margin: 0 3px 0 3px;
+      border-radius: 0;
       i {
         width: 100%;
         font-size: 20px;
@@ -267,6 +269,9 @@ body {
         margin-top: 10px;
         display: inline-block;
       }
+    }
+    button.even {
+      background-color: #0e76bd;
     }
     .navbar-collapse {
       width: 108%;
@@ -287,5 +292,8 @@ body {
           border-bottom: 0;
         }
       }
+    }
+    .even {
+      background-color: #0e76bd;
     }
   }
