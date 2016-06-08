@@ -11,6 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
 }
 
@@ -70,7 +71,8 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 960px;
+    max-width: 1200px;
+    // max-width: 960px;
     // max-width: 730px;
   }
 
@@ -98,15 +100,64 @@ body {
 /*main nav*/
 #main-nav {
   .navbar-default {
+    padding: 10px 0;
     background-color: #006bb3;
     border-color: #006bb3;
-    color: #ffffff;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0;
+    .container {
+      .navbar-header {
+        width: 14%;
+        margin-right: 45px;
+        .nav-logo {
+          background: #fff;
+          padding: 14px 0 0 10px;
+          width: 100%;
+          height: 60px;
+          display: inline-block;
+          cursor: pointer;
+          img {
+            width: 93%;
+          }
+        }
+      }
+      .translate-container {
+        float: left;
+        width: 20%;
+        margin: 18px 50px;
+        form {
+          label {
+            font-weight: 300;
+            color: #fbaf3f;
+            text-transform: uppercase;
+            margin-right: 15px;
+          }
+        }
+      }
+      .navbar-collapse {
+        float: left;
+      }
+    }
+    .navbar-nav {
+      margin-top: 16px;
+      li {
+        border-right: 1px solid #fff;
+        a {
+          font-weight: 300;
+          letter-spacing: 1px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
   }
-
+  .navbar.navbar-default {
+    border-radius: 0;
+  }
   .navbar-default .navbar-brand {
     color: #ffffff;
   }
-
   .navbar-default .navbar-nav > li > a {
     color: #ffffff;
   }

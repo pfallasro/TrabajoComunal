@@ -13,6 +13,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!-- endbuild -->
   </head>
   <body ng-app="FCL">
@@ -25,25 +26,32 @@
       <div  class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
-
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-
-            <a class="navbar-brand glyphicon glyphicon-home" href="#/"></a>
+            <a class="nav-logo" href="#">
+              <img src="images/FCL-logo.png" alt="FCL Logo">
+            </a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">QUIÉNES SOMOS</a></li>
-              <li><a ng-href="#/chat">PROGRAMA DE LIDERAZGO JUENIL</a></li>
+              <li><a href="#/">QUIÉNES SOMOS</a></li>
+              <li><a ng-href="#/chat">PROGRAMA DE LIDERAZGO JUVENIL</a></li>
               <li><a ng-href="#/chat">IMM</a></li>
               <li><a ng-href="#/chat">CONTÁCTANOS</a></li>
             </ul>
+          </div>
+          <div class="translate-container">
+            <form action="">
+              <input id="translate-en" type="radio" name="translate-en" value="translate-en">
+              <label for="translate-en">English</label>
+              <input id="translate-es" type="radio" name="translate-es" value="translate-es">
+              <label for="translate-es">Spanish</label>
+            </form>
           </div>
         </div>
       </div>
