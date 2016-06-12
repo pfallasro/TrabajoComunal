@@ -46,7 +46,8 @@ body {
 
 .info-row {
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
+  width: 1140px;
   .col-sm-3 {
     width: 22%;
   }
@@ -58,7 +59,7 @@ body {
     p {
       margin: 0;
     }
-  } 
+  }
   img {
     width: 100%;
   }
