@@ -44,6 +44,14 @@ body {
   }
 }
 
+.info-row {
+  position: absolute;
+  z-index: -1; 
+  .col-sm-3 {
+    width: 22%;
+  }
+}
+
 .second-info-col {
   .video-heading {
     font-size: 13px;
@@ -97,6 +105,9 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  position: absolute;
+  margin-top: 30%;
+  width: 100%;
   // .container {
   //   ul {
   //     li {
@@ -112,6 +123,7 @@ body {
   // }
   .container {
     ul {
+      float: right;
       li {
         background: url('../images/social-footer.png');
         width: 50px;
@@ -281,9 +293,9 @@ body {
     position: relative;
     line-height: 1.5em;
 
-    position: absolute;
-    top: 40px;
-    left: 17px;
+    position: relative;
+    top: 6px;
+    left: 12px;
     width: 14em;
     display: none;
     ul {
