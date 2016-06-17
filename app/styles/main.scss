@@ -44,15 +44,6 @@ body {
   }
 }
 
-.info-row {
-  position: absolute;
-  z-index: -1;
-  width: 1140px;
-  .col-sm-3 {
-    width: 22%;
-  }
-}
-
 .second-info-col {
   .video-heading {
     font-size: 13px;
@@ -101,14 +92,16 @@ body {
   }
 }
 
+.main-info {    
+  position: relative;
+  z-index: -1;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-  position: absolute;
-  margin-top: 30%;
-  width: 100%;
   // .container {
   //   ul {
   //     li {
@@ -294,9 +287,9 @@ body {
     position: relative;
     line-height: 1.5em;
 
-    position: relative;
-    top: 6px;
-    left: 12px;
+    position: absolute;
+    top: 40px;
+    left: 17px;
     width: 14em;
     display: none;
     ul {
