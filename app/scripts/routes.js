@@ -20,5 +20,11 @@ angular.module('FCL')
         templateUrl: 'views/chat.html',
         controller: 'ChatCtrl'
       })
+
+      .when('/proyectos', {
+        templateUrl: 'views/proyectosSociales.html'
+        // controller: 'ProyectosCtrl'
+      })
+
       .otherwise({redirectTo: '/'});
   }]);
